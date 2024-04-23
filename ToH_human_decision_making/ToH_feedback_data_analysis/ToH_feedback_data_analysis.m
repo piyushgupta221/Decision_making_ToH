@@ -2,7 +2,7 @@ clc
 close all
 addpath ..\
 % Save variables to a .mat file
-load('toh_data_participants.mat', 'exp1_participants_old', 'exp2_participants_old', 'exp3_participants_old', ...
+load('toh_participants_data.mat', 'exp1_participants_old', 'exp2_participants_old', 'exp3_participants_old', ...
     'exp4_participants_old', 'exp5_participants_old');
 
 experiment1 = setup_experiment(exp1_participants_old);
